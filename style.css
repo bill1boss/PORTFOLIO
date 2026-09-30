@@ -134,3 +134,52 @@ body {
   font-size: 0.85rem;
   margin: 0;
 }
+/* ==========================================================================
+   HERO BUTTONS STYLES
+   ========================================================================== */
+
+/* Περιέκτης κουμπιών - στοίχιση στο κέντρο με κενό ανάμεσά τους */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Κοινό στυλ και για τα δύο κουμπιά */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+/* 1. Βασικό Κουμπί (Contact Me) - Charcoal/Off-white αντίθεση */
+.btn-primary {
+  background-color: #e0e0e0; /* Off-white */
+  color: #121212;            /* Dark Background */
+  border: 1px solid #e0e0e0;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px); /* Ελαφρύ σήκωμα προς τα πάνω */
+}
+
+/* 2. Περίγραμμα Κουμπί (GitHub) - Minimalist Outline */
+.btn-outline {
+  background-color: transparent;
+  color: #e0e0e0;
+  border: 1px solid #444444;
+}
+
+.btn-outline:hover {
+  border-color: #e0e0e0;
+  background-color: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+}
