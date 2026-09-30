@@ -1,87 +1,70 @@
 <!DOCTYPE html>
 <html lang="el">
+
 <head>
-  <!-- <head>: Το "μυαλό" της σελίδας. Περιέχει κρυφές ρυθμίσεις που δεν φαίνονται στην οθόνη. -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- <title>: Ο τίτλος που φαίνεται πάνω-πάνω στην καρτέλα (tab) του browser. -->
   <title>Portfolio | Vasileios Katsotis</title>
-  
-  <!-- <link>: Η εντολή που συνδέει το HTML αρχείο με το CSS αρχείο (style.css). -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- =========================================================================
-    1. HERO HEADER SECTION
-    ========================================================================= -->
+  <!-- HERO HEADER SECTION -->
   <header class="hero">
     <h1><span class="highlight">Vasileios Katsotis</span></h1>
     <p class="subtitle">Web Developer & Designer</p>
 
-    <!-- ΚΟΥΜΠΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ & SOCIAL LINKS -->
     <div class="hero-buttons">
-      <!-- Κουμπί Email (Ανοίγει απευθείας το πρόγραμμα email του επισκέπτη) -->
       <a href="mailto:vasiliskatsotis@gmail.com" class="btn btn-primary">Contact Me</a>
-      
-      <!-- Κουμπί GitHub (Ανοίγει το προφίλ σου σε νέα καρτέλα) -->
       <a href="https://github.com/bill1boss" target="_blank" class="btn btn-outline">GitHub</a>
     </div>
   </header>
 
-
-  <!-- =========================================================================
-     2. MAIN CONTENT CONTAINER
-     <main>: Το κύριο περιεχόμενο της σελίδας που περιέχει όλες τις κάρτες/ενότητες.
-     ========================================================================= -->
+  <!-- MAIN CONTENT CONTAINER -->
   <main class="container">
 
-    <!-- <section>: Κάθε αυτόνομη ενότητα/κάρτα της σελίδας (π.χ. About, Skills, Projects). -->
-    
-    <!-- ΕΝΟΤΗΤΑ 1: ABOUT ME -->
+    <!-- ABOUT ME SECTION -->
     <section class="card">
-      <!-- <h2>: Δευτερεύων τίτλος για το όνομα της συγκεκριμένης ενότητας. -->
       <h2>About Me</h2>
       <p>
-        Έχω σπουδάσει Προγραμματισμό στο ΙΕΚ ΔΕΛΤΑ 360, αποκτώντας ισχυρές βάσεις στην ανάπτυξη web εφαρμογών και τη συγγραφή καθαρού, δομημένου κώδικα. Κατά τη διάρκεια των σπουδών μου, εργάστηκα σε πρακτικά projects, όπως τη δημιουργία δυναμικών ιστοσελίδων, τη σχεδίαση βάσεων δεδομένων και την υλοποίηση responsive user interfaces με HTML, CSS και JavaScript. Εστιάζω στη συνεχή μάθηση, τη χρήση σύγχρονων εργαλείων όπως το Git, και τη δημιουργία λειτουργικών και καλοσχεδιασμένων εφαρμογών.
+        Έχω σπουδάσει Προγραμματισμό στο ΙΕΚ ΔΕΛΤΑ 360, αποκτώντας ισχυρές βάσεις στην ανάπτυξη web εφαρμογών και τη
+        συγγραφή καθαρού, δομημένου κώδικα. Κατά τη διάρκεια των σπουδών μου, εργάστηκα σε πρακτικά projects, όπως τη
+        δημιουργία δυναμικών ιστοσελίδων, τη σχεδίαση βάσεων δεδομένων και την υλοποίηση responsive user interfaces με
+        HTML, CSS και JavaScript. Εστιάζω στη συνεχή μάθηση, τη χρήση σύγχρονων εργαλείων όπως το Git, και τη δημιουργία
+        λειτουργικών και καλοσχεδιασμένων εφαρμογών.
       </p>
     </section>
 
-    <!-- ΕΝΟΤΗΤΑ 2: SKILLS -->
+    <!-- SKILLS & PROJECTS SECTION -->
     <section class="card">
-      <h2>Skills</h2>
-      <!-- <div>: Ουδέτερο "κουτί" ομαδοποίησης. Μαζεύει όλα τα badges μαζί για να τα διατάξει το CSS. -->
-      <div class="skills-list">
-        <!-- <span>: Χρησιμοποιείται ως μεμονωμένο badge/ετικέτα για κάθε skill. -->
-        <span class="skill-item">HTML</span>
-        <span class="skill-item">CSS</span>
-        <span class="skill-item">VS Code</span>
-        <span class="skill-item">Git & GitHub</span>
-      </div>
-    </section>
+      <h2>Skills & Projects</h2>
 
-    <!-- ΕΝΟΤΗΤΑ 3: PROJECTS -->
-    <section class="card">
-      <h2>Projects</h2>
-      <!-- <h3>: Τίτλος 3ου επιπέδου. Τον χρησιμοποιούμε για το όνομα ενός συγκεκριμένου project. -->
-      <h3>Minimalist Portfolio</h3>
-      <p>Ένα καθαρό, monochrome portfolio φτιαγμένο με HTML5 και CSS3.</p>
-      <!-- <a>: Σύνδεσμος (link) που οδηγεί σε άλλη σελίδα ή εξωτερικό site. -->
-      <a href="#" class="btn-link">Δες το Project &rarr;</a>
+      <div class="skills-grid">
+        <a href="https://github.com/bill1boss/portfolio" target="_blank" class="skill-tag">
+          HTML5
+        </a>
+
+        <a href="https://github.com/bill1boss/portfolio" target="_blank" class="skill-tag">
+          CSS3 & Layouts
+        </a>
+
+        <a href="https://github.com/bill1boss?tab=repositories" target="_blank" class="skill-tag">
+          JavaScript
+        </a>
+
+        <a href="https://github.com/bill1boss/portfolio" target="_blank" class="skill-tag">
+          Git & Version Control
+        </a>
+      </div>
     </section>
 
   </main>
 
-
-  <!-- =========================================================================
-     3. FOOTER SECTION
-     <footer>: Το κάτω μέρος της σελίδας για το copyright, links ή νομικές σημειώσεις.
-     ========================================================================= -->
+  <!-- FOOTER SECTION -->
   <footer class="footer">
-    <!-- &copy;: Ειδικός HTML κώδικας που εμφανίζει αυτόματα το σύμβολο copyright (©). -->
     <p>&copy; Nikoleta Aigidou</p>
   </footer>
 
 </body>
+
 </html>

@@ -95,30 +95,45 @@ body {
   font-size: 0.98rem;
 }
 
-/* ==========================================
-   4. SKILLS BADGES (Δεξιότητες)
-   ========================================== */
-.skills-list {
+/* ==========================================================================
+   SKILLS & PROJECTS BUTTONS STYLES
+   ========================================================================== */
+
+.section-subtitle {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Πλέγμα για τα κουμπιά των Skills */
+.skills-grid {
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
-  margin-top: 10px;
+  gap: 0.8rem;
 }
 
-.skill-item {
-  background-color: #121212;
-  color: #d4d4d4;
-  border: 1px solid var(--card-border);
-  padding: 6px 14px;
+/* Στυλ για τα πατήσιμα κουμπιά-Skills */
+.skill-tag {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #242424;
+  color: #e0e0e0;
+  text-decoration: none;
+  border: 1px solid #333333;
   border-radius: 6px;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   font-weight: 500;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
 }
 
-.skill-item:hover {
-  background-color: #262626;
-  color: #ffffff;
-  border-color: #525252;
+/* Hover εφέ όταν περνάει το ποντίκι πάνω από το κουμπί */
+.skill-tag:hover {
+  background-color: #e0e0e0;
+  color: #121212;
+  border-color: #e0e0e0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
 }
 /* ==========================================
    5. FOOTER (Copyright κάτω δεξιά)
