@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <!-- <head>: Το "μυαλό" της σελίδας. Περιέχει κρυφές ρυθμίσεις που δεν φαίνονται στην οθόνη. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- <title>: Ο τίτλος που φαίνεται πάνω-πάνω στην καρτέλα (tab) του browser. -->
+  <title>Portfolio | Nikoleta Aigidou</title>
+  
+  <!-- <link>: Η εντολή που συνδέει το HTML αρχείο με το CSS αρχείο (style.css). -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- <body>: Το "σώμα" της σελίδας. Εδώ μπαίνει Ο,ΤΙ εμφανίζεται στην οθόνη. -->
+
+  <!-- =========================================================================
+     1. HERO HEADER SECTION
+     <header>: Το πάνω μέρος της σελίδας. Η "βιτρίνα" του site όπου συστήνεσαι.
+     ========================================================================= -->
+  <header class="hero">
+    <!-- <h1>: Ο κύριος τίτλος της σελίδας (το όνομά σου). Υπάρχει ΜΟΝΟ ΕΝΑ <h1> σε κάθε σελίδα. -->
+    <!-- <span>: Απομονώνει μικρό κομμάτι κειμένου για να του δώσουμε ξεχωριστό στυλ/χρώμα στο CSS. -->
+    <h1><span class="highlight">Nikoleta Aigidou</span></h1>
+    
+    <!-- <p>: Απλή παράγραφος κειμένου. Εδώ χρησιμοποιείται για τον υπότιτλο/ρόλο σου. -->
+    <p class="subtitle">Web Developer & Designer</p>
+  </header>
+
+
+  <!-- =========================================================================
+     2. MAIN CONTENT CONTAINER
+     <main>: Το κύριο περιεχόμενο της σελίδας που περιέχει όλες τις κάρτες/ενότητες.
+     ========================================================================= -->
+  <main class="container">
+
+    <!-- <section>: Κάθε αυτόνομη ενότητα/κάρτα της σελίδας (π.χ. About, Skills, Projects). -->
+    
+    <!-- ΕΝΟΤΗΤΑ 1: ABOUT ME -->
+    <section class="card">
+      <!-- <h2>: Δευτερεύων τίτλος για το όνομα της συγκεκριμένης ενότητας. -->
+      <h2>About Me</h2>
+      <p>Σύντομη περιγραφή για το background, τους στόχους και το πάθος σου για το web development.</p>
+    </section>
+
+    <!-- ΕΝΟΤΗΤΑ 2: SKILLS -->
+    <section class="card">
+      <h2>Skills</h2>
+      <!-- <div>: Ουδέτερο "κουτί" ομαδοποίησης. Μαζεύει όλα τα badges μαζί για να τα διατάξει το CSS. -->
+      <div class="skills-list">
+        <!-- <span>: Χρησιμοποιείται ως μεμονωμένο badge/ετικέτα για κάθε skill. -->
+        <span class="skill-item">HTML</span>
+        <span class="skill-item">CSS</span>
+        <span class="skill-item">VS Code</span>
+        <span class="skill-item">Git & GitHub</span>
+      </div>
+    </section>
+
+    <!-- ΕΝΟΤΗΤΑ 3: PROJECTS -->
+    <section class="card">
+      <h2>Projects</h2>
+      <!-- <h3>: Τίτλος 3ου επιπέδου. Τον χρησιμοποιούμε για το όνομα ενός συγκεκριμένου project. -->
+      <h3>Minimalist Portfolio</h3>
+      <p>Ένα καθαρό, monochrome portfolio φτιαγμένο με HTML5 και CSS3.</p>
+      <!-- <a>: Σύνδεσμος (link) που οδηγεί σε άλλη σελίδα ή εξωτερικό site. -->
+      <a href="#" class="btn-link">Δες το Project &rarr;</a>
+    </section>
+
+  </main>
+
+
+  <!-- =========================================================================
+     3. FOOTER SECTION
+     <footer>: Το κάτω μέρος της σελίδας για το copyright, links ή νομικές σημειώσεις.
+     ========================================================================= -->
+  <footer class="footer">
+    <!-- &copy;: Ειδικός HTML κώδικας που εμφανίζει αυτόματα το σύμβολο copyright (©). -->
+    <p>&copy; Nikoleta Aigidou</p>
+  </footer>
+
+</body>
+</html>
