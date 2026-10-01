@@ -198,3 +198,25 @@ body {
   background-color: rgba(255, 255, 255, 0.05);
   transform: translateY(-2px);
 }
+/* Στυλ για τα Skill Tags που είναι ενεργοί σύνδεσμοι (Links) */
+a.skill-link {
+  text-decoration: none; /* Αφαιρεί την προεπιλεγμένη υπογράμμιση */
+  color: inherit;        /* Διατηρεί το ίδιο χρώμα κειμένου με τα υπόλοιπα tags */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+/* Εφέ όταν το ποντίκι περνάει πάνω από το κουμπί JavaScript */
+a.skill-link:hover {
+  transform: translateY(-2px);           /* Ελαφριά ανύψωση */
+  border-color: #ffffff;                 /* Φωτεινό περίγραμμα */
+  background-color: rgba(255, 255, 255, 0.1); /* Ελαφρύ φωτισμός φόντου */
+  cursor: pointer;
+}
+
+.external-icon {
+  font-size: 0.8em;
+  opacity: 0.8;
+}
