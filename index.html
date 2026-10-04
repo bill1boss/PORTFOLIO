@@ -1,67 +1,67 @@
 <!DOCTYPE html>
-<!-- lang="el": Δηλώνει τη γλώσσα της σελίδας για browsers και SEO -->
-<html lang="el">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- Viewport settings: Εξασφαλίζει πλήρη προσαρμογή σε οθόνες κινητών & tablets -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
   <title>Portfolio | Vasileios Katsotis</title>
-  
-  <!-- Σύνδεση με το κεντρικό CSS του Portfolio -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ==========================================================================
-       HERO / HEADER SECTION
-       ========================================================================== -->
+  <!-- HERO / HEADER SECTION -->
   <header class="hero">
     <div class="container">
       <h1>Vasileios Katsotis</h1>
       <p class="subtitle">Web Developer & Designer</p>
       <p class="bio">
-        Έχω σπουδάσει Προγραμματισμό στο ΙΕΚ ΔΕΛΤΑ 360, αποκτώντας ισχυρές βάσεις στην ανάπτυξη web εφαρμογών, σχεδιασμό βάσεων δεδομένων και responsive user interfaces.
+        Passionate Front-End Web Developer crafting modern, responsive, and high-performance web applications. Focused on clean user interfaces, interactive JavaScript tools, and smooth digital experiences.
       </p>
     </div>
   </header>
 
-  <!-- ==========================================================================
-       SKILLS SECTION (Με συνδέσμους προς τα Projects)
-       ========================================================================== -->
+  <!-- SKILLS SECTION -->
   <section class="skills-section">
     <div class="container">
-      <h2>Τεχνολογίες & Projects</h2>
-      
+      <h2>Tech Stack & Skills</h2>
       <div class="skills-grid">
-        
-        <!-- HTML5 Skill Tag (Static Badge) -->
         <span class="skill-tag">HTML5</span>
-        
-        <!-- CSS3 Skill Tag (Static Badge) -->
         <span class="skill-tag">CSS3</span>
-        
-        <!-- JAVASCRIPT SKILL TAG -> ΣΥΝΔΕΔΕΜΕΝΟ ΜΕ ΤΗ ΣΕΛΙΔΑ PROJECTS
-             * href: Οδηγεί στη νέα εσωτερική σελίδα js-projects.html
-             * class="skill-tag skill-link": Διατηρεί το ίδιο στυλ με τα υπόλοιπα tags -->
-        <a href="js-projects.html" class="skill-tag skill-link">
-          JavaScript <span class="external-icon">➔</span>
-        </a>
+        <span class="skill-tag">JavaScript (ES6+)</span>
+        <span class="skill-tag">REST APIs & Async JS</span>
+        <span class="skill-tag">Git & GitHub</span>
+        <span class="skill-tag">Responsive Web Design</span>
+        <span class="skill-tag">DOM Manipulation</span>
+        <span class="skill-tag">UI/UX Basics</span>
+      </div>
+    </div>
+  </section>
 
-        <!-- Git & GitHub Skill Tags -->
-        <span class="skill-tag">Git</span>
-        <span class="skill-tag">GitHub</span>
+  <!-- PROJECTS SECTION -->
+  <section class="projects-section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project Card 1: JS Apps -->
+        <div class="project-card">
+          <h3>⚡ Interactive JavaScript Apps</h3>
+          <p>A curated collection of web tools including Weather Forecast and Task Manager, showcasing API integration, DOM manipulation, and LocalStorage implementation.</p>
+          <a href="js-projects.html" class="project-link">Explore Projects ➔</a>
+        </div>
 
       </div>
     </div>
   </section>
 
-  <!-- ==========================================================================
-       FOOTER SECTION
-       ========================================================================== -->
+  <!-- CONTACT / FOOTER SECTION -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2026 Nikoleta Aigidou. All rights reserved.</p>
+      <h2>Get In Touch</h2>
+      <p>Interested in collaborating or hiring me for a project? Let's build something awesome together!</p>
+      <div class="contact-links">
+        <a href="https://github.com/bill1boss" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+      </div>
+      <p class="copyright">&copy; 2026 Vasileios Katsotis. All rights reserved.</p>
     </div>
   </footer>
 
